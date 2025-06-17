@@ -3,9 +3,9 @@ server:
 
   spring:
     datasource:
-      url:
-      username: admin
-      password: admin
+      url: jdbc:mysql://mysql:3306/deptdb
+      username: root
+      password: root
     jpa:
       hibernate:
         ddl-auto: update
