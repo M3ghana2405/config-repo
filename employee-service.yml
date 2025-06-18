@@ -1,0 +1,16 @@
+server:
+  port: 8083
+
+  spring:
+    data:
+      mongodb:
+        uri: mongodb+srv://mv172001:parkavenue47@mycluster.kc8k9e5.mongodb.net/employeeDb?retryWrites=true&w=majority
+      
+
+  eureka:
+    client:
+      service-url:
+        defaultZone: http://localhost:8761/eureka
+
+
+
